@@ -19,11 +19,21 @@
         "js/vendor.js",
         "js/content_script.js"
       ]
+    },
+    {
+      "matches": [
+        "https://weread.qq.com/web/reader/*"
+      ],
+      "js": [
+        "js/weread.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "background": {
     "service_worker": "js/background.js"
   },
+
   "permissions": [
     "storage"
   ],
