@@ -9,7 +9,7 @@ module.exports = {
         options: path.join(srcDir, 'options.tsx'),
         background: path.join(srcDir, 'background.ts'),
         content_script: path.join(srcDir, 'content_script.tsx'),
-        "weread-read": path.join(srcDir, 'weread-read.ts'),
+        "weread-reader": path.join(srcDir, 'weread-reader.ts'),
         "weread-search": path.join(srcDir, 'weread-search.ts'),
         "weread-remove": path.join(srcDir, 'weread-remove.ts'),
     },
