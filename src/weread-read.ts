@@ -3,7 +3,6 @@ import $ from "jquery";
 // 宽屏
 $(".app_content").css({
   "maxWidth": "1000px",
-  "transition": "max-width 0.06s ease-in-out"
 });
 $(".readerTopBar").css({
   "maxWidth": "1000px",

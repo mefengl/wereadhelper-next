@@ -41,7 +41,8 @@
     },
     {
       "matches": [
-        "https://weread.qq.com/web/shelf"
+        "https://weread.qq.com/web/shelf",
+        "https://weread.qq.com/web/reader/*"
       ],
       "js": [
         "js/weread-remove.js"
