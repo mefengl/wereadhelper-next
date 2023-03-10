@@ -11,6 +11,7 @@ module.exports = {
         content_script: path.join(srcDir, 'content_script.tsx'),
         "weread-read": path.join(srcDir, 'weread-read.ts'),
         "weread-search": path.join(srcDir, 'weread-search.ts'),
+        "weread-remove": path.join(srcDir, 'weread-remove.ts'),
     },
     output: {
         path: path.join(__dirname, "../dist/js"),

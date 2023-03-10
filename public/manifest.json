@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "也读",
   "description": "读书人用的扩展",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "options_ui": {
     "page": "options.html"
   },
@@ -38,6 +38,15 @@
       "js": [
         "js/weread-search.js"
       ]
+    },
+    {
+      "matches": [
+        "https://weread.qq.com/web/shelf"
+      ],
+      "js": [
+        "js/weread-remove.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "background": {
